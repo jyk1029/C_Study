@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int n[5] = { 99, 78, 62, 3, 100 };
+	int stor;
+
+	for (int i = 0; i < 5; i++) {
+
+		for (int j = i; j < 5; j++) {
+			if (n[i] >= n[j]) {
+				stor = n[i];
+				n[i] = n[j];
+				n[j] = stor;
+			}
+			
+		}
+
+		printf("%d ", n[i]);
+	}
+	return 0;
+}
