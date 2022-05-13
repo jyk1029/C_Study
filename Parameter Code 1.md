@@ -1,0 +1,33 @@
+```c
+//매개변수 <두 정수 입력받아 덧셈 결과 출력 코드>
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h> //헤더파일
+
+int add(int n1, int n2) { //형식 매개변수
+	return n1 + n2;
+}
+void result(int n) {
+	printf("덧셈 결과 : %d\n", n);
+}
+int scan() {
+	int num;
+	scanf("%d", &num);
+	return num;
+}
+void prog() {
+	printf("두 개의 정수 입력하면 결과 출력.\n");
+	printf("그럼 두개의 정수를 입력.\n");
+}
+
+int main() { //실 매개변수
+	int res,n1,n2;
+	prog();
+	n1 = scan();
+	n2 = scan();
+	res = add(n1, n2);
+	result(res);
+
+	return 0;
+}
+```
