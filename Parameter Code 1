@@ -1,6 +1,3 @@
-```c
-//매개변수 <두 정수 입력받아 덧셈 결과 출력 코드>
-
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h> //헤더파일
 
