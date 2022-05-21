@@ -1,0 +1,17 @@
+#include<stdio.h>
+int total;
+
+int add(int num) {
+	return total += num;
+}
+int main() {
+	int n;
+	while (1) {
+		printf("입력 : ");
+		scanf("%d", &n);
+		if (n == 0) break;
+		printf("누적 : %d\n", add(n));
+	}
+
+	return 0;
+}
