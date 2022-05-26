@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main() {
+	printf("sizeof(char)\t: %d, sizeof(char*)\t: %d\n", sizeof(char), sizeof(char*));
+	printf("sizeof(int)\t: %d, sizeof(int*)\t: %d\n", sizeof(int), sizeof(int*));
+	printf("sizeof(double)\t: %d, sizeof(double*)\t: %d\n", sizeof(double), sizeof(double*));
+	printf("sizeof(long long)\t: %d, sizeof(long long*)\t: %d\n", sizeof(long long), sizeof(long long*));
+
+	return 0;
+}
